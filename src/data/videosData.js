@@ -226,22 +226,25 @@ export const GRADE_SUBJECTS_MAP = {
 
 // Exact Live Videos from YouTube Channel: https://www.youtube.com/@dnyankaksha360/videos
 export const VIDEOS_DATA = [
+  // --- FULL-LENGTH LESSONS ---
   {
-    id: "v-live-01",
-    youtubeId: "2WjsmSDZQzE",
-    title: "ज्ञानकक्षा 360° मध्ये तुमचं स्वागत! ३८ वर्षांचा अध्यापन प्रवास एका नव्या रूपात…",
-    description: "ज्ञानकक्षा 360° हा विद्यार्थी, पालक आणि शिक्षकांसाठी समर्पित शैक्षणिक उपक्रम आहे. ३८ वर्षांचा अध्यापन अनुभव असणारे श्री. नामदेव धनावडे (N D Sir) यांच्या सोबत शालेय शिक्षण, स्पर्धा परीक्षा, गणित, बुद्धिमत्ता व सोप्या ट्रिक्स.",
-    grade: "Parents & Teachers",
-    subject: "Channel Intro",
-    duration: "02:45",
-    uploadedAt: "Official Upload",
-    isFeatured: true,
-    tags: ["ज्ञानकक्षा360", "welcome video", "n d sir", "marathi education"],
+    id: "v-live-05",
+    youtubeId: "x6pppIxBtTk",
+    title: "इयत्ता ७ वी | गणित | संख्याज्ञान – प्रकरण १",
+    description: "या व्हिडिओमध्ये आपण सम संख्या, विषम संख्या, मूळ संख्या, जोडमूळ संख्या, सहमूळ संख्या आणि संयुक्त संख्या हे महत्त्वाचे घटक सोप्या आणि समजण्यासारख्या पद्धतीने शिकणार आहोत. विद्यार्थ्यांची मूलभूत संकल्पना मजबूत करण्यासाठी आणि गणिताचा पाया भक्कम करण्यासाठी हा व्हिडिओ नक्की पाहा.",
+    grade: "Class 7",
+    subject: "Mathematics",
+    duration: "26:09",
+    isShort: false,
+    type: "video",
+    uploadedAt: "Latest Upload",
+    isFeatured: false,
+    tags: ["इयत्ता7वी", "संख्याज्ञान", "गणित", "class 7 maths", "dnyankaksha360", "सम व विषम संख्या"],
     keyTakeaways: [
-      "३८ वर्षांचा अध्यापन प्रवास आणि नव्या स्वरूपातील उपक्रम",
-      "इयत्ता १ ते १० शालेय शिक्षण व स्पर्धा परीक्षा संकल्पना",
-      "गणित, बुद्धिमत्ता चाचणी व शॉर्ट ट्रिक्स",
-      "पालक व शिक्षकांसाठी विशेष मार्गदर्शन"
+      "सम संख्या आणि विषम संख्या मूलभूत संकल्पना",
+      "मूळ संख्या, जोडमूळ संख्या व सहमूळ संख्या स्पष्टीकरण",
+      "संयुक्त संख्या आणि उदाहरणांसह सोपे मार्गदर्शन",
+      "विद्यार्थ्यांची गणितातील पायाभरणी व सराव"
     ]
   },
   {
@@ -251,7 +254,9 @@ export const VIDEOS_DATA = [
     description: "या व्हिडिओमध्ये आपण संख्याज्ञान या घटकातील मूलभूत संकल्पना सोप्या आणि समजण्यासारख्या पद्धतीने शिकणार आहोत. आंतरराष्ट्रीय संख्याचिन्हे वाचन व लेखन, पाच अंकी संख्यांचे वाचन-लेखन आणि सरावासाठी उपयुक्त प्रश्न.",
     grade: "Class 4",
     subject: "Mathematics",
-    duration: "14:20",
+    duration: "28:24",
+    isShort: false,
+    type: "video",
     uploadedAt: "Official Upload",
     isFeatured: false,
     tags: ["इयत्ता4थी", "संख्याज्ञान", "गणित", "class 4 maths", "dnyankaksha360"],
@@ -266,11 +271,13 @@ export const VIDEOS_DATA = [
     id: "v-live-03",
     youtubeId: "8HbY3qPa7J0",
     title: "इयत्ता ४ थी आणि ७ वी शिष्यवृत्ती अभ्यासक्रम | paper pattern | प्रकरणनिहाय गुण",
-    description: "तुमच्या मुलाच्या/विद्यार्थ्यांच्या शिष्यवृत्ती परीक्षेच्या यशासाठी योग्य नियोजन आणि माहिती! इयत्ता ४ थी आणि ७ वी शिष्यवृत्ती परीक्षेचा पेपर पॅटर्न, विषयानुसार अभ्यासक्रम आणि प्रकरणनिहाय गुण वितरण (Mark Distribution).",
+    description: "तुमच्या मुलाच्या/विद्यार्थ्यांच्या शिष्यवृत्ती परीक्षेच्या यशासाठी योग्य नियोजन आणि माहिती! इयत्ता ४ थी आणि ७ वी शिष्यवृत्ती परीक्षेचा paper pattern, विषयानुसार अभ्यासक्रम आणि प्रकरणनिहाय गुण वितरण (Mark Distribution).",
     grade: "Competitive Exams",
     secondaryGrade: "Class 7",
     subject: "Scholarship & NTSE",
-    duration: "18:50",
+    duration: "36:22",
+    isShort: false,
+    type: "video",
     uploadedAt: "Official Upload",
     isFeatured: false,
     tags: ["scholarship exam", "इयत्ता4थी", "इयत्ता7वी", "शिष्यवृत्ती परीक्षा", "dnyankaksha360"],
@@ -288,7 +295,9 @@ export const VIDEOS_DATA = [
     description: "तुमच्या मुलाला किंवा विद्यार्थ्याला कोणती प्रवेश परीक्षा योग्य आहे? इयत्ता १ ते १० मधील निवासी शाळा, लष्करी शाळा (Sainik School), शासकीय शाळा आणि आश्रमशाळा प्रवेश परीक्षांची सोपी माहिती.",
     grade: "Competitive Exams",
     subject: "Exam Guidance",
-    duration: "15:35",
+    duration: "18:28",
+    isShort: false,
+    type: "video",
     uploadedAt: "Official Upload",
     isFeatured: false,
     tags: ["स्पर्धा परीक्षा", "निवासी शाळा प्रवेश", "लष्करी शाळा", "इयत्ता १ ते १०", "dnyankaksha360"],
@@ -297,6 +306,119 @@ export const VIDEOS_DATA = [
       "लष्करी शाळा (Sainik School) प्रवेश परीक्षा स्वरूप",
       "शासकीय शाळा प्रवेश परीक्षा व पात्रता",
       "पालक, विद्यार्थी आणि शिक्षकांसाठी उपयुक्त मार्गदर्शिका"
+    ]
+  },
+  {
+    id: "v-live-01",
+    youtubeId: "2WjsmSDZQzE",
+    title: "ज्ञानकक्षा 360° मध्ये तुमचं स्वागत! ३८ वर्षांचा अध्यापन प्रवास एका नव्या रूपात…",
+    description: "ज्ञानकक्षा 360° हा विद्यार्थी, पालक आणि शिक्षकांसाठी समर्पित शैक्षणिक उपक्रम आहे. ३८ वर्षांचा अध्यापन अनुभव असणारे श्री. नामदेव धनावडे (N D Sir) यांच्या सोबत शालेय शिक्षण, स्पर्धा परीक्षा, गणित, बुद्धिमत्ता व सोप्या ट्रिक्स.",
+    grade: "Parents & Teachers",
+    subject: "Channel Intro",
+    duration: "03:24",
+    isShort: false,
+    type: "video",
+    uploadedAt: "Official Upload",
+    isFeatured: true,
+    tags: ["ज्ञानकक्षा360", "welcome video", "n d sir", "marathi education"],
+    keyTakeaways: [
+      "३८ वर्षांचा अध्यापन प्रवास आणि नव्या स्वरूपातील उपक्रम",
+      "इयत्ता १ ते १० शालेय शिक्षण व स्पर्धा परीक्षा संकल्पना",
+      "गणित, बुद्धिमत्ता चाचणी व शॉर्ट ट्रिक्स",
+      "पालक व शिक्षकांसाठी विशेष मार्गदर्शन"
+    ]
+  },
+
+  // --- YOUTUBE SHORTS ---
+  {
+    id: "s-live-01",
+    youtubeId: "reBsvQHMyJs",
+    title: "🔢 संख्याज्ञान समजून घ्या… अगदी सोप्या पद्धतीने! 📚",
+    description: "इयत्ता ७ वी | प्रकरण १ - सम • विषम • मूळ • जोडमूळ • सहमूळ • संयुक्त संख्या short preview & tricks. संपूर्ण सविस्तर धडा युट्यूब वर उपलब्ध आहे.",
+    grade: "Class 7",
+    subject: "Mathematics",
+    duration: "00:10",
+    isShort: true,
+    type: "short",
+    uploadedAt: "Latest Short",
+    isFeatured: false,
+    tags: ["ज्ञानकक्षा360", "संख्याज्ञान", "इयत्ता7वी", "Maths", "Shorts"],
+    keyTakeaways: [
+      "संख्याज्ञानातील महत्त्वाच्या व्याख्या व उदाहरणे",
+      "शॉर्ट ट्रिक्सने गणिताचा पाया मजबूत करा"
+    ]
+  },
+  {
+    id: "s-live-02",
+    youtubeId: "UOqErLGzomI",
+    title: "सराव प्रश्नसंच: संख्याज्ञान - भाग १ 📚",
+    description: "आजचे सराव प्रश्न सोडवले का? स्पर्धा परीक्षा व शिष्यवृत्ती परीक्षेच्या महत्त्वाच्या प्रश्नांचा सराव करा ज्ञानकक्षा ३६० सोबत!",
+    grade: "Competitive Exams",
+    secondaryGrade: "Class 4",
+    subject: "Scholarship & NTSE",
+    duration: "00:11",
+    isShort: true,
+    type: "short",
+    uploadedAt: "YouTube Short",
+    isFeatured: false,
+    tags: ["ज्ञानकक्षा360", "education", "competitiveexams", "मराठी", "Shorts"],
+    keyTakeaways: [
+      "शिष्यवृत्ती व स्पर्धा परीक्षा सराव प्रश्न",
+      "संख्याज्ञान घटकावरील महत्त्वाचे प्रश्न"
+    ]
+  },
+  {
+    id: "s-live-03",
+    youtubeId: "K0hUFLJT7ok",
+    title: "🔢 संख्याज्ञान शिकूया, सोप्या पद्धतीने! 📚✨",
+    description: "इयत्ता ४ थी व पायाभूत गणितासाठी संख्याज्ञान वाचन व लेखन सोप्या टिप्स.",
+    grade: "Class 4",
+    subject: "Mathematics",
+    duration: "00:12",
+    isShort: true,
+    type: "short",
+    uploadedAt: "YouTube Short",
+    isFeatured: false,
+    tags: ["ज्ञानकक्षा360", "संख्याज्ञान", "इयत्ता4थी", "गणित", "Shorts"],
+    keyTakeaways: [
+      "४ थी गणित संख्याज्ञान संकल्पना",
+      "आंतरराष्ट्रीय संख्याचिन्हे झलक"
+    ]
+  },
+  {
+    id: "s-live-04",
+    youtubeId: "if5KQrqV1Rk",
+    title: "📚 शिक्षक सेवानिवृत्त होतो… पण शिक्षक कधीच निवृत्त होत नाही…! 🙏",
+    description: "श्री. नामदेव धनावडे (N D Sir) यांचा ३८ वर्षांचा अध्यापन प्रवास आणि ज्ञानकक्षा ३६०° ची प्रेरणादायी सुरुवात.",
+    grade: "Parents & Teachers",
+    subject: "Channel Intro",
+    duration: "00:10",
+    isShort: true,
+    type: "short",
+    uploadedAt: "YouTube Short",
+    isFeatured: false,
+    tags: ["ज्ञानकक्षा360", "n d sir", "motivation", "Shorts"],
+    keyTakeaways: [
+      "३८ वर्षांच्या अध्यापन सेवेचा संदेश",
+      "शिक्षणाची अविरत गंगा व ध्येय"
+    ]
+  },
+  {
+    id: "s-live-05",
+    youtubeId: "3KtnmbEKMXA",
+    title: "ज्ञानकक्षा 360° Teaser #FutureReady #LearningBeyondBooks 🚀",
+    description: "इयत्ता १ ते १० शालेय शिक्षण, स्पर्धा परीक्षा व पालक मार्गदर्शनाची विशेष झलक.",
+    grade: "Parents & Teachers",
+    subject: "Channel Intro",
+    duration: "00:27",
+    isShort: true,
+    type: "short",
+    uploadedAt: "YouTube Short",
+    isFeatured: false,
+    tags: ["ComingSoon", "LearningBeyondBooks", "FutureReady", "Shorts"],
+    keyTakeaways: [
+      "ज्ञानकक्षा 360° प्लॅटफॉर्मचा परिचय",
+      "शालेय व स्पर्धा परीक्षा तयारी"
     ]
   }
 ];
