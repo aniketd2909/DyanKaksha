@@ -20,7 +20,6 @@ export default function App() {
   // Filter states
   const [selectedGrade, setSelectedGrade] = useState('all');
   const [selectedSubject, setSelectedSubject] = useState('all');
-  const [contentType, setContentType] = useState('all'); // 'all' | 'video' | 'short'
   const [sortBy, setSortBy] = useState('newest');
 
   // Helper to change grade and automatically reset subject to 'all'
@@ -91,7 +90,6 @@ export default function App() {
   const handleResetFilters = () => {
     setSelectedGrade('all');
     setSelectedSubject('all');
-    setContentType('all');
   };
 
   // Grade counter helper
@@ -118,14 +116,6 @@ export default function App() {
         return false;
       }
 
-      // Content Format filter (all, video, short)
-      if (contentType === 'video' && video.isShort) {
-        return false;
-      }
-      if (contentType === 'short' && !video.isShort) {
-        return false;
-      }
-
       return true;
     }).sort((a, b) => {
       if (sortBy === 'title') {
@@ -133,7 +123,7 @@ export default function App() {
       }
       return 0;
     });
-  }, [selectedGrade, selectedSubject, contentType, sortBy]);
+  }, [selectedGrade, selectedSubject, sortBy]);
 
   return (
     <div>
@@ -163,13 +153,11 @@ export default function App() {
           getGradeCount={getGradeCount}
         />
 
-        {/* Dynamic Class-Specific Subject & Format Filters */}
+        {/* Dynamic Class-Specific Subject Filters */}
         <SubjectFilter
           selectedGrade={selectedGrade}
           selectedSubject={selectedSubject}
           setSelectedSubject={setSelectedSubject}
-          contentType={contentType}
-          setContentType={setContentType}
         />
 
         {/* Video Grid List */}

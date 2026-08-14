@@ -6,8 +6,7 @@ import {
   Check, 
   Sparkles, 
   Clock, 
-  ExternalLink,
-  Zap
+  ExternalLink 
 } from 'lucide-react';
 import YoutubeIcon from './YoutubeIcon';
 
@@ -53,11 +52,6 @@ export default function VideoModal({
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
             <span className="grade-badge-tag">{video.grade}</span>
             <span className="subject-badge-tag">{video.subject}</span>
-            {video.isShort && (
-              <span style={{ background: 'rgba(239, 68, 68, 0.15)', color: '#ef4444', padding: '2px 8px', borderRadius: '12px', fontSize: '0.75rem', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '3px' }}>
-                <Zap size={12} /> YouTube Short
-              </span>
-            )}
           </div>
 
           <button className="modal-close-btn" onClick={onClose} title="Close modal (Esc)">
@@ -80,10 +74,7 @@ export default function VideoModal({
           <div className="modal-title-row">
             <h2 style={{ fontSize: '1.4rem', lineHeight: 1.3 }}>{video.title}</h2>
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-              <span>
-                {video.isShort ? <Zap size={14} color="#ef4444" style={{ display: 'inline', verticalAlign: 'middle', marginRight: '2px' }} /> : <Clock size={14} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '2px' }} />}
-                {video.duration}
-              </span>
+              <span><Clock size={14} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '2px' }} /> {video.duration}</span>
               <span>{video.uploadedAt}</span>
             </div>
           </div>
